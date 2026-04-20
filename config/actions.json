@@ -1,0 +1,51 @@
+{
+  "global": {
+    "Up": {
+      "enabled": true,
+      "confirm": false,
+      "actions": [
+        {
+          "type": "hotkey",
+          "sequence": [
+            ["ctrl", "k"],
+            ["ctrl", "o"]
+          ],
+          "interval_between_steps": 0.2
+        }
+      ]
+    },
+    "v": {
+      "enabled": true,
+      "confirm": false,
+      "actions": [
+        {
+          "type": "hotkey",
+          "sequence": [["ctrl", "v"]]
+        }
+      ]
+    },
+    "c": {
+      "enabled": true,
+      "confirm": false,
+      "actions": [
+        {
+          "type": "hotkey",
+          "sequence": [["ctrl", "c"]]
+        }
+      ]
+    }
+  },
+  "chrome.exe": {
+    "Circle": {
+      "enabled": true,
+      "confirm": true,
+      "confirmation_message": "Open project folder?",
+      "actions": [
+        {
+          "type": "open_url",
+          "url": "https://github.com"
+        }
+      ]
+    }
+  }
+}
